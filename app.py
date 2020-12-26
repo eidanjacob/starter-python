@@ -5,9 +5,9 @@ from twilio.twiml.voice_response import VoiceResponse
 from twilio.rest import Client
 
 # Pull in configuration from system environment variables
-TWILIO_ACCOUNT_SID = os.environ.get('TWILIO_ACCOUNT_SID')
-TWILIO_AUTH_TOKEN = os.environ.get('TWILIO_AUTH_TOKEN')
-TWILIO_PHONE_NUMBER = os.environ.get('TWILIO_PHONE_NUMBER')
+TWILIO_ACCOUNT_SID = "AC03b3219a2c5f5834d4c26eb2a3f0604c"
+TWILIO_AUTH_TOKEN = "8c17fb0976c38f736af14c1849b168e0"
+TWILIO_PHONE_NUMBER = "+14159939685"
 
 # create an authenticated client that can make requests to Twilio for your
 # account.
